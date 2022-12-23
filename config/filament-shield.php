@@ -73,4 +73,9 @@ return [
     'register_role_policy' => [
         'enabled' => true,
     ],
+
+    'nav' => [
+        'group' => 'Administrator',
+        'sort' => -1,
+    ],
 ];

@@ -28,7 +28,12 @@ class RoleResource extends Resource
 
     protected static function getNavigationGroup(): ?string
     {
-        return config('travel.nav.group.administrator');
+        return config('filament-shield.nav.group.administrator');
+    }
+
+    protected static function getNavigationSort(): ?int
+    {
+        return config('filament-shield.nav.sort');
     }
 
     public static function form(Form $form): Form
