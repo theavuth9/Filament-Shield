@@ -28,7 +28,7 @@ class RoleResource extends Resource
 
     protected static function getNavigationGroup(): ?string
     {
-        return config('filament-shield.nav.group.administrator');
+        return config('filament-shield.nav.group');
     }
 
     protected static function getNavigationSort(): ?int
